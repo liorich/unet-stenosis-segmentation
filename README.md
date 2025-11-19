@@ -46,7 +46,9 @@ Both networks detected stenosis correctly in at least 80% of the test images. At
 
 ![Coloring of two angiographic images by the two networks, in both methods.](/assets/readme/tests.jpg)
 
-## Conclusion
+## Results, Conclusion
+
+In terms of complexity, AttUNet++ has around 2,800,000 more trainable parameters and required ~20% more time to train. Both networks achieved an average IoU of 0.6 – 0.71. The attention mechanism helped achieve higher coordinate hits in both methods but conversely raised more false alarms.
 
 Our results indicate that AttUNet++ is more suited for the medical task at hand.
 In terms of average IoU, both networks performed almost equally and therefor the metric of Coordinate Hits was given more weight. Another reason for this consideration is the importance of detecting the stenosis over correctly coloring it in the images. AttUNet++ got more coordinate hits than UNet++ in both coloring methods.
