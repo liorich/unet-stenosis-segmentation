@@ -32,7 +32,8 @@ Dataset size and split: 164 images, 131 for training, 13 for validation and 30 f
 Loss function: Binary Cross-entropy
 Batch size: UNet++ - 4, AttUNet++ - 5
 Number of Epochs: 80
-Evaluation Metrics: Number of trainable parameters, Intersection Over Union (IoU), Coordinate Hits and False Alarms.```
+Evaluation Metrics: Number of trainable parameters, Intersection Over Union (IoU), Coordinate Hits and False Alarms.
+```
 
 The research process originally involved the acquisition of angiographic data, manual segmentation, training of both networks, performance comparison to select the best network, statistical analysis of the data and finally, creating a GUI for comfortable use of the entire system. Because the acquired dataset does not include any personal information, statistical analysis could not be extracted.
 The dataset used is publicly available on **Mendeley Data**. It includes a set of angiographic imaging series of one hundred patients who underwent coronary angiography at the Research Institute for Complex Problems of Cardiovascular Diseases. There are over 7,000 images that include the video frames of the iodine injection from different angles to different patients. The dataset also includes the coordinates of detected stenosis for each frame. In total, 164 images were selected and manually colored according to the given coordinates. The selection involved a variety of angles and patients to avoid overfitting the networks.
