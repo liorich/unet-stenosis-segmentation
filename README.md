@@ -6,7 +6,7 @@
 
 Angiographic coronary imaging is a valuable technique used to assess the condition and health of arteries. This diagnostic method involves the injection of iodine into the patient's arteries, followed by X-ray imaging to examine the flow of this contrast agent. In this project, the narrowing of coronary arteries was discussed, known as Stenosis.
 
-Nowadays, this segmentation of the narrowing within the images is done manually and carefully by a physician. This project proposed utilizing Convolution Neural Networks (CNNs) to expedite and enhance the segmentation process. Several scientific papers suggested that for medical image segmentation tasks the UNet++ CNN Architecture performs with high accuracy.	
+Nowadays, this segmentation of the narrowing within the images is done manually and carefully by a physician. This project proposed utilizing Convolution Neural Networks (CNNs) to expedite and enhance the segmentation process. Several scientific papers suggested that for medical image segmentation tasks the UNet++ CNN Architecture performs with high accuracy.
 
 ## Dependencies
 ```
@@ -18,7 +18,8 @@ matplotlib
 scikit-image
 tqdm
 Nvidia CUDA 11.2, Nvidia CUDnn 8.7
-Robustness of Probabilistic U-Net github repository, includes the UNet++ and Attention UNet++ models. https://github.com/rizalmaulanaa/Robustness_of_Prob_U_Net
+Robustness of Probabilistic U-Net github repository, includes the UNet++ and Attention UNet++ models. 
+https://github.com/rizalmaulanaa/Robustness_of_Prob_U_Net
 ```
 
 ## Training
